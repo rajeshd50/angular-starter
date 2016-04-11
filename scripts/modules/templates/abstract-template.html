@@ -1,0 +1,33 @@
+<div layout="column" ng-cloak>
+    <div flex>
+        <md-menu>
+            <md-button aria-label="Open phone interactions menu" class="md-icon-button" ng-click="vm.openMenu($mdOpenMenu, $event)">
+                <i class="fa fa-home" style="font-size: 30px;"></i>
+            </md-button>
+            <md-menu-content width="4">
+                <md-menu-item>
+                    <md-button>
+                        Option1
+                    </md-button>
+                </md-menu-item>
+                <md-menu-item>
+                    <md-button>
+                        Option2
+                    </md-button>
+                </md-menu-item>
+                <md-menu-divider></md-menu-divider>
+                <md-menu-item>
+                    <md-button>
+                        Option3
+                    </md-button>
+                </md-menu-item>
+            </md-menu-content>
+        </md-menu>
+    </div>
+    <div flex>
+        <div layout="row" layout-sm="column" layout-align="space-around" class="loader-container" ng-if="vm.showLoader">
+            <md-progress-circular md-diameter="96" class="loader"></md-progress-circular>
+        </div>
+        <ui-view></ui-view>
+    </div>
+</div>
