@@ -117,7 +117,6 @@ gulp.task('server', function() {
 
 gulp.task('serve',['build','server'], function() {
   return gulp.watch([
-    indexPaths.src, 
     './sass/**/*.scss','./scripts/**/*.js','./scripts/**/*.html'
   ], [
    'build', browserSync.reload
