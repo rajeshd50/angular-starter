@@ -110,7 +110,7 @@ gulp.task('copyIndex', function() {
 gulp.task('server', function() {
   browserSync({
     server: {
-     baseDir: './build' 
+     baseDir: './dist' 
     }
   });
 });
