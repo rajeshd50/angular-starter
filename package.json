@@ -10,6 +10,8 @@
   "dependencies": {
     "angular": "^1.6.4",
     "angular-material": "",
+    "angular-animate": "^1.6.4",
+    "angular-aria": "^1.6.4",
     "angularjs-toaster": "",
     "browser-sync": "",
     "gulp": "^3.5.6",
