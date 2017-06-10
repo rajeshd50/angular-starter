@@ -8,6 +8,7 @@
   },
 
   "dependencies": {
+    "angular": "^1.6.4",
     "angular-material": "",
     "angularjs-toaster": "",
     "browser-sync": "",
